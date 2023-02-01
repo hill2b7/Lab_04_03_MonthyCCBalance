@@ -12,7 +12,7 @@ public class Main {
         total = firstMonthInterest + cardBalance;
         System.out.println("The total after the first month is " + total);
         secondMonthInterest = total * interestRate;
-        System.out.println("The interest accrued for the second month is " + secondMonthInterest;
+        System.out.println("The interest accrued for the second month is " + secondMonthInterest);
         total = total + secondMonthInterest;
         System.out.println("The total after the second month is " + total);
     }
